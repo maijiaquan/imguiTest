@@ -6,10 +6,31 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		4CF4C3D0209998B300FCB825 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui.cpp; path = "../../imgui-master/imgui.cpp"; sourceTree = "<group>"; };
+		4CF4C3D1209998B300FCB825 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imconfig.h; path = "../../imgui-master/imconfig.h"; sourceTree = "<group>"; };
+		4CF4C3D2209998B300FCB825 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_internal.h; path = "../../imgui-master/imgui_internal.h"; sourceTree = "<group>"; };
+		4CF4C3D3209998B400FCB825 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui.h; path = "../../imgui-master/imgui.h"; sourceTree = "<group>"; };
+		4CF4C3D4209998B400FCB825 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_draw.cpp; path = "../../imgui-master/imgui_draw.cpp"; sourceTree = "<group>"; };
+		4CF4C3D5209998B400FCB825 /* imgui_demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_demo.cpp; path = "../../imgui-master/imgui_demo.cpp"; sourceTree = "<group>"; };
+		4CF4C3D6209998CA00FCB825 /* imgui_impl_glfw_gl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgui_impl_glfw_gl3.h; path = "../../imgui-master/examples/opengl3_example/imgui_impl_glfw_gl3.h"; sourceTree = "<group>"; };
+		4CF4C3D7209998CA00FCB825 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "../../imgui-master/examples/opengl3_example/main.cpp"; sourceTree = "<group>"; };
+		4CF4C3D8209998CA00FCB825 /* imgui_impl_glfw_gl3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_impl_glfw_gl3.cpp; path = "../../imgui-master/examples/opengl3_example/imgui_impl_glfw_gl3.cpp"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		4CF4C3C52099985C00FCB825 = {
 			isa = PBXGroup;
 			children = (
+				4CF4C3D1209998B300FCB825 /* imconfig.h */,
+				4CF4C3D5209998B400FCB825 /* imgui_demo.cpp */,
+				4CF4C3D4209998B400FCB825 /* imgui_draw.cpp */,
+				4CF4C3D2209998B300FCB825 /* imgui_internal.h */,
+				4CF4C3D0209998B300FCB825 /* imgui.cpp */,
+				4CF4C3D3209998B400FCB825 /* imgui.h */,
+				4CF4C3D8209998CA00FCB825 /* imgui_impl_glfw_gl3.cpp */,
+				4CF4C3D6209998CA00FCB825 /* imgui_impl_glfw_gl3.h */,
+				4CF4C3D7209998CA00FCB825 /* main.cpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -23,6 +44,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/Michael/Documents/imgui-master/examples/opengl3_example";
 			dependencies = (
 			);
 			name = imguiTest;
